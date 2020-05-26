@@ -1,9 +1,13 @@
+<!--
+ * @LastEditors: misitebao
+ * @Description: 请添加文档头注释！！！
+--> 
 # 快斗博客
-> [演示地址：https://blog.kuaidjun.com](https://blog.kuaidjun.com)  
-[项目地址:https://github.com/kuaidjun/blog](https://github.com/kuaidjun/blog)
+> [演示地址：https://blog.misitebao.com](https://blog.misitebao.com)  
+[项目地址:https://github.com/misitebao/blog](https://github.com/misitebao/blog)
 
 ## 简介
-> 快斗博客是一个纯个人开发维护的前端知识分享博客！
+> 米司博客是一个纯个人开发维护的前端知识分享博客！
 
 ## 技术栈
 
@@ -15,7 +19,7 @@
 
 ### 后端
 #### 1. 服务端语言采用Nodejs
-#### 2. 框架选择Express
+#### 2. 框架选择Koa
 #### 3. 数据库采用Mysql+redis
 
 ## 使用方法
