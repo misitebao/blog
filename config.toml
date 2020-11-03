@@ -44,7 +44,7 @@ copyright = true
 # LoveIt 新增 | 0.2.0 是否显示作者
 author = true
 # 网站创立年份
-since = 2016
+since = 2015
 # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
 icp = "鄂ICP备20006255号"
 # 许可协议信息 (支持 HTML 格式)
@@ -54,7 +54,7 @@ license = '<a rel="license external nofollow noopener noreffer" href="https://cr
 [params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
-gravatarEmail = ""
+gravatarEmail = "i@misitebao.com"
 # 主页显示头像的 URL
 avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
 # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
@@ -155,6 +155,15 @@ pre = ""
 title = ""
 url = "/categories/"
 weight = 3
+
+[[languages.zh-cn.menu.main]]
+identifier = "about"
+name = "关于"
+post = ""
+pre = ""
+title = ""
+url = "/about"
+weight = 4
 
 # Hugo 解析文档的配置
 [markup]
