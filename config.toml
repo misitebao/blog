@@ -22,7 +22,7 @@ type = "lunr"
 # 文章内容最长索引长度
 contentLength = 4000
 # 搜索框的占位提示语
-placeholder = ""
+placeholder = "请输入搜索关键词"
 # LoveIt 新增 | 0.2.1 最大结果数目
 maxResultLength = 10
 # LoveIt 新增 | 0.2.3 结果内容片段长度
@@ -58,7 +58,7 @@ gravatarEmail = "i@misitebao.com"
 # 主页显示头像的 URL
 avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
 # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = ""
+title = "米司博客"
 # 主页显示的网站副标题
 subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
 # 是否为副标题显示打字机动画
