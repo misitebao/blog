@@ -50,23 +50,23 @@ icp = "鄂ICP备20006255号"
 # 许可协议信息 (支持 HTML 格式)
 license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-# 主页个人信息
-[params.home.profile]
-enable = true
-# Gravatar 邮箱，用于优先在主页显示的头像
-gravatarEmail = "i@misitebao.com"
-# 主页显示头像的 URL
-avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
-# LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = "米司博客"
-# 主页显示的网站副标题
-subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
-# 是否为副标题显示打字机动画
-typeit = true
-# 是否显示社交账号
-social = true
-# LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-disclaimer = ""
+## 主页个人信息
+#[params.home.profile]
+#enable = true
+## Gravatar 邮箱，用于优先在主页显示的头像
+#gravatarEmail = "i@misitebao.com"
+## 主页显示头像的 URL
+#avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
+## LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+#title = "米司博客"
+## 主页显示的网站副标题
+#subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
+## 是否为副标题显示打字机动画
+#typeit = true
+## 是否显示社交账号
+#social = true
+## LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+#disclaimer = ""
 
 # 作者的社交信息设置
 [params.social]
@@ -120,6 +120,23 @@ title = ""
 url = "/categories/"
 weight = 3
 
+[languages.en.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+gravatarEmail = "i@misitebao.com"
+# 主页显示头像的 URL
+avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar_en.png"
+# LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = "Misitebao's Blog"
+# 主页显示的网站副标题
+subtitle = "There are 10 kinds of people in the world, one kind understands binary system and the other kind does not understand binary system."
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
+
 [languages.zh-cn]
 title = "米司博客"
 weight = 2
@@ -164,6 +181,23 @@ pre = ""
 title = ""
 url = "/about"
 weight = 4
+
+[languages.zh-cn.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+gravatarEmail = "i@misitebao.com"
+# 主页显示头像的 URL
+avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
+# LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = "米司博客"
+# 主页显示的网站副标题
+subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
 
 # Hugo 解析文档的配置
 [markup]
