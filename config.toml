@@ -50,19 +50,6 @@ icp = "鄂ICP备20006255号"
 # 许可协议信息 (支持 HTML 格式)
 license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-# LoveIt 新增 | 0.2.0 Section (所有文章) 页面配置
-[params.section]
-# section 页面每页显示文章数量
-paginate = 20
-# 日期格式 (月和日)
-dateFormat = "01-02"
-# RSS 文章数目
-rss = 10
-
-# 主页配置
-[params.home]
-# LoveIt 新增 | 0.2.0 RSS 文章数目
-rss = 10
 # 主页个人信息
 [params.home.profile]
 enable = true
@@ -80,14 +67,6 @@ typeit = true
 social = true
 # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
 disclaimer = ""
-# 主页文章列表
-[params.home.posts]
-enable = true
-# 主页每页显示文章数量
-paginate = 6
-# LoveIt 删除 | 0.2.0 被 params.page 中的 hiddenFromHomePage 替代
-# 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
-defaultHiddenFromHomePage = false
 
 # 作者的社交信息设置
 [params.social]
@@ -96,13 +75,6 @@ GitHub = "misitebao"
 Twitter = "misitebao"
 Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
 Zhihu = "misitebao"
-
-# LoveIt 新增 | 0.2.10 网站 SEO 配置
-[params.seo]
-# 图片 URL
-image = ""
-# 缩略图 URL
-thumbnailUrl = ""
 
 # 作者配置
 [author]
