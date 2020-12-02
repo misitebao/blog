@@ -20,7 +20,7 @@ jobs:
           hugo-version: "0.79.1"
           extended: true
       - name: Build | 构建
-        run: hugo --minify
+        run: hugo
       - name: Deploy to Server | 部署到服务器
         uses: hengkx/ssh-deploy@v1.0.1
         with:
