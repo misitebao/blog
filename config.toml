@@ -108,7 +108,7 @@ weight = 1
 
 [[languages.en.menu.main]]
 identifier = ""
-name = "FrontEnd"
+name = "Frontend"
 post = ""
 pre = ""
 title = ""
