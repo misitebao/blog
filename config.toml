@@ -74,7 +74,9 @@ Email = "i@misitebao.com"
 GitHub = "misitebao"
 Twitter = "misitebao"
 Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
+Bilibili = "97480642"
 Zhihu = "misitebao"
+RSS = true
 
 # 作者配置
 [author]
