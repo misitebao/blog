@@ -1,0 +1,7 @@
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
+[submodule "content/posts"]
+	path = content/posts
+	url = https://github.com/misitebao/blog-article.git
+	branch = main
