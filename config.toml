@@ -70,13 +70,13 @@ disclaimer = ""
 
 # 作者的社交信息设置
 [params.social]
+Bilibili = "97480642"
 Email = "i@misitebao.com"
 GitHub = "misitebao"
+RSS = true
 Twitter = "misitebao"
 Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
-Bilibili = "97480642"
 Zhihu = "misitebao"
-RSS = true
 
 # 作者配置
 [author]
