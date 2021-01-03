@@ -120,6 +120,16 @@ title = ""
 url = "/categories/"
 weight = 3
 
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+post = ""
+pre = ""
+title = ""
+url = "/about/"
+weight = 4
+
+
 [languages.en.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
@@ -179,7 +189,7 @@ name = "关于"
 post = ""
 pre = ""
 title = ""
-url = "/about"
+url = "/about/"
 weight = 4
 
 [languages.zh-cn.params.home.profile]

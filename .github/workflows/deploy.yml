@@ -17,7 +17,7 @@ jobs:
       - name: Setup Hugo | 设置Hugo环境
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.79.1"
+          hugo-version: "0.80.0"
           extended: true
       - name: Build | 构建
         run: hugo
