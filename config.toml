@@ -13,6 +13,10 @@ theme = "LoveIt"
 [params]
 # LoveIt 主题版本
 version = "0.2.X"
+# 网站描述
+description = "米司博客-米司特包的个人博客-世界上有10种人,一种懂二进制,一种不懂二进制."
+# 网站关键词
+keywords = ["米司特包","米司","misitebao","米司博客"]
 
 # LoveIt 新增 | 0.2.0 搜索配置
 [params.search]
@@ -128,7 +132,6 @@ pre = ""
 title = ""
 url = "/about/"
 weight = 4
-
 
 [languages.en.params.home.profile]
 enable = true
