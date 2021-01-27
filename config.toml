@@ -16,7 +16,7 @@ version = "0.2.X"
 # 网站描述
 description = "米司博客-米司特包的个人博客-世界上有10种人,一种懂二进制,一种不懂二进制."
 # 网站关键词
-keywords = ["米司特包","米司","misitebao","米司博客"]
+keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
 # LoveIt 新增 | 0.2.0 搜索配置
 [params.search]
@@ -49,8 +49,8 @@ copyright = true
 author = true
 # 网站创立年份
 since = 2015
-# ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-icp = "鄂ICP备20006255号"
+## ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+## icp = "鄂ICP备20006255号"
 # 许可协议信息 (支持 HTML 格式)
 license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
@@ -82,11 +82,11 @@ Twitter = "misitebao"
 Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
 Zhihu = "misitebao"
 
-# 作者配置
-[author]
-email = "i@misitebao.com"
-link = "https://github.com/misitebao"
-name = "米司特包"
+## 作者配置
+#[author]
+#email = "i@misitebao.com"
+#link = "https://github.com/misitebao"
+#name = "米司特包"
 
 # 多语言配置
 [languages]
@@ -133,6 +133,11 @@ title = ""
 url = "/about/"
 weight = 40
 
+# 页面底部信息配置
+[languages.en.params.footer]
+# ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+icp = "ICP-20006255"
+
 [languages.en.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
@@ -149,6 +154,13 @@ typeit = true
 social = true
 # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
 disclaimer = ""
+
+[languages.en.author]
+email = "i@misitebao.com"
+link = "https://github.com/misitebao"
+name = "Misitebao"
+
+
 
 [languages.zh-cn]
 title = "米司博客"
@@ -213,6 +225,11 @@ title = ""
 url = "/about/"
 weight = 40
 
+# 页面底部信息配置
+[languages.zh-cn.params.footer]
+# ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+icp = "鄂ICP备20006255号"
+
 [languages.zh-cn.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
@@ -229,6 +246,15 @@ typeit = true
 social = true
 # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
 disclaimer = ""
+
+[languages.zh-cn.author]
+email = "i@misitebao.com"
+link = "https://github.com/misitebao"
+name = "米司特包"
+
+
+
+
 
 # Hugo 解析文档的配置
 [markup]
