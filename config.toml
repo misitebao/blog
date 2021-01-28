@@ -94,8 +94,36 @@ Zhihu = "misitebao"
 [languages.en]
 languageCode = "en"
 languageName = "English"
-title = "Misitebao‘s Blog"
+title = "Misitebao's Blog"
 weight = 1
+
+[[languages.en.menu.main]]
+identifier = ""
+name = "Home"
+post = ""
+pre = ""
+title = ""
+url = "/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = ""
+name = "FrontEnd"
+post = ""
+pre = ""
+title = ""
+url = "/categories/Frontend/"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = ""
+name = "Go"
+post = ""
+pre = ""
+title = ""
+url = "/categories/Go/"
+weight = 3
+
 
 [[languages.en.menu.main]]
 identifier = "posts"
@@ -136,7 +164,7 @@ weight = 40
 # 页面底部信息配置
 [languages.en.params.footer]
 # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-icp = "ICP-20006255"
+icp = "鄂ICP备20006255号"
 
 [languages.en.params.home.profile]
 enable = true
@@ -160,8 +188,6 @@ email = "i@misitebao.com"
 link = "https://github.com/misitebao"
 name = "Misitebao"
 
-
-
 [languages.zh-cn]
 title = "米司博客"
 weight = 2
@@ -173,12 +199,21 @@ hasCJKLanguage = true
 
 [[languages.zh-cn.menu.main]]
 identifier = ""
+name = "主页"
+post = ""
+pre = ""
+title = ""
+url = "/"
+weight = 1
+
+[[languages.zh-cn.menu.main]]
+identifier = ""
 name = "前端"
 post = ""
 pre = ""
 title = ""
 url = "/categories/前端/"
-weight = 1
+weight = 2
 
 [[languages.zh-cn.menu.main]]
 identifier = ""
@@ -187,11 +222,11 @@ post = ""
 pre = ""
 title = ""
 url = "/categories/Go/"
-weight = 1
+weight = 3
 
 [[languages.zh-cn.menu.main]]
 identifier = "posts"
-name = "文章"
+name = "全部文章"
 post = ""
 pre = ""
 title = ""
@@ -251,10 +286,6 @@ disclaimer = ""
 email = "i@misitebao.com"
 link = "https://github.com/misitebao"
 name = "米司特包"
-
-
-
-
 
 # Hugo 解析文档的配置
 [markup]
