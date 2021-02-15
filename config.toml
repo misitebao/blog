@@ -36,6 +36,13 @@ highlightTag = "em"
 # LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
 absoluteURL = false
 
+# 代码块配置
+[params.page.code]
+# 是否显示代码块的复制按钮
+copy = true
+# 默认展开显示的代码行数
+maxShownLines = 18
+
 # 页面底部信息配置
 [params.footer]
 enable = true
@@ -88,6 +95,35 @@ Zhihu = "misitebao"
 #link = "https://github.com/misitebao"
 #name = "米司特包"
 
+# Hugo 解析文档的配置
+[markup]
+# 语法高亮设置
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+# false 是必要的设置
+# (https://github.com/dillonzq/LoveIt/issues/158)
+noClasses = false
+# Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.renderer]
+# 是否在文档中直接使用 HTML 标签
+unsafe = true
+# 目录设置
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2
+
 # 多语言配置
 [languages]
 
@@ -123,7 +159,6 @@ pre = ""
 title = ""
 url = "/categories/Go/"
 weight = 3
-
 
 [[languages.en.menu.main]]
 identifier = "posts"
@@ -286,11 +321,3 @@ disclaimer = ""
 email = "i@misitebao.com"
 link = "https://github.com/misitebao"
 name = "米司特包"
-
-# Hugo 解析文档的配置
-[markup]
-
-# 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
-[markup.highlight]
-# false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
-noClasses = false
