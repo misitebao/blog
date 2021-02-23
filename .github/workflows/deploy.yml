@@ -1,7 +1,7 @@
 name: Deploy | 部署
 on:
   push:
-    branches: [master]
+    branches: [main]
 #  pull_request:
 #    branches: [master]
 jobs:
@@ -10,7 +10,7 @@ jobs:
     if: github.repository == 'misitebao/blog'
     steps:
       - name: Checkout | 切换到部署分支
-        uses: actions/checkout@master
+        uses: actions/checkout@main
         with:
           submodules: true
           fetch-depth: 0
