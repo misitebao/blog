@@ -169,7 +169,7 @@ icp = "鄂ICP备20006255号"
 [languages.en.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
-gravatarEmail = "i@misitebao.com"
+gravatarEmail = ""
 # 主页显示头像的 URL
 avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar_en.png"
 # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
@@ -268,7 +268,7 @@ icp = "鄂ICP备20006255号"
 [languages.zh-cn.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
-gravatarEmail = "i@misitebao.com"
+gravatarEmail = ""
 # 主页显示头像的 URL
 avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
 # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
