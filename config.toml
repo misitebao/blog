@@ -1,4 +1,5 @@
-baseURL = ""
+# 网站根地址
+baseURL = "https://blog.misitebao.com/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -18,306 +19,316 @@ description = "米司博客-米司特包的个人博客-世界上有10种人,一
 # 网站关键词
 keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
-# LoveIt 新增 | 0.2.0 搜索配置
-[params.search]
-enable = true
-# 搜索引擎的类型 ("lunr", "algolia")
-type = "lunr"
-# 文章内容最长索引长度
-contentLength = 4000
-# 搜索框的占位提示语
-placeholder = "请输入搜索关键词"
-# LoveIt 新增 | 0.2.1 最大结果数目
-maxResultLength = 10
-# LoveIt 新增 | 0.2.3 结果内容片段长度
-snippetLength = 50
-# LoveIt 新增 | 0.2.1 搜索结果中高亮部分的 HTML 标签
-highlightTag = "em"
-# LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
-absoluteURL = false
+  # 搜索配置
+  [params.search]
+  enable = false
+  # 搜索引擎的类型 ("lunr", "algolia")
+  type = "lunr"
+  # 文章内容最长索引长度
+  contentLength = 4000
+  # 搜索框的占位提示语
+  placeholder = "请输入搜索关键词"
+  # LoveIt 新增 | 0.2.1 最大结果数目
+  maxResultLength = 10
+  # LoveIt 新增 | 0.2.3 结果内容片段长度
+  snippetLength = 50
+  # LoveIt 新增 | 0.2.1 搜索结果中高亮部分的 HTML 标签
+  highlightTag = "em"
+  # LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
+  absoluteURL = false
 
-# 代码块配置
-[params.page.code]
-# 是否显示代码块的复制按钮
-copy = true
-# 默认展开显示的代码行数
-maxShownLines = 18
+  # 代码块配置
+  [params.page.code]
+  # 是否显示代码块的复制按钮
+  copy = true
+  # 默认展开显示的代码行数
+  maxShownLines = 18
 
-# 页面底部信息配置
-[params.footer]
-enable = true
-# LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
-custom = ''
-# LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
-hugo = false
-# LoveIt 新增 | 0.2.0 是否显示版权信息
-copyright = true
-# LoveIt 新增 | 0.2.0 是否显示作者
-author = true
-# 网站创立年份
-since = 2015
-## ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-## icp = "鄂ICP备20006255号"
-# 许可协议信息 (支持 HTML 格式)
-license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # 页面底部信息配置
+  [params.footer]
+  enable = true
+  # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
+  custom = ''
+  # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
+  hugo = false
+  # LoveIt 新增 | 0.2.0 是否显示版权信息
+  copyright = true
+  # LoveIt 新增 | 0.2.0 是否显示作者
+  author = true
+  # 网站创立年份
+  since = 2015
+  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)                              
+  icp = "鄂ICP备20006255号"
+  # 许可协议信息 (支持 HTML 格式)
+  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-## 主页个人信息
-#[params.home.profile]
-#enable = true
-## Gravatar 邮箱，用于优先在主页显示的头像
-#gravatarEmail = "i@misitebao.com"
-## 主页显示头像的 URL
-#avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
-## LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-#title = "米司博客"
-## 主页显示的网站副标题
-#subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
-## 是否为副标题显示打字机动画
-#typeit = true
-## 是否显示社交账号
-#social = true
-## LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-#disclaimer = ""
+  # LoveIt 新增 | 0.2.0 Section (所有文章) 页面配置
+  [params.section]
+  # section 页面每页显示文章数量
+  paginate = 10
+  # 日期格式 (月和日)
+  dateFormat = "01-02"
+  # RSS 文章数目
+  rss = 10
 
-# 作者的社交信息设置
-[params.social]
-Bilibili = "97480642"
-Email = "i@misitebao.com"
-GitHub = "misitebao"
-RSS = true
-Twitter = "misitebao"
-Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
-Zhihu = "misitebao"
+  # LoveIt 新增 | 0.2.0 List (目录或标签) 页面配置
+  [params.list]
+  # list 页面每页显示文章数量
+  paginate = 10
+  # 日期格式 (月和日)
+  dateFormat = "01-02"
+  # RSS 文章数目
+  rss = 10
 
-## 作者配置
-#[author]
-#email = "i@misitebao.com"
-#link = "https://github.com/misitebao"
-#name = "米司特包"
+
+  # 作者的社交信息设置
+  [params.social]
+  Bilibili = "97480642"
+  Email = "i@misitebao.com"
+  GitHub = "misitebao"
+  RSS = true
+  Twitter = "misitebao"
+  Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
+  Zhihu = "misitebao"
+
+#作者配置                                      
+[author]
+email = "i@misitebao.com"
+link = "https://github.com/misitebao"
+name = "米司特包"
 
 # Hugo 解析文档的配置
 [markup]
-# 语法高亮设置
-[markup.highlight]
-codeFences = true
-guessSyntax = true
-lineNos = true
-lineNumbersInTable = true
-# false 是必要的设置
-# (https://github.com/dillonzq/LoveIt/issues/158)
-noClasses = false
-# Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
-[markup.goldmark]
-[markup.goldmark.extensions]
-definitionList = true
-footnote = true
-linkify = true
-strikethrough = true
-table = true
-taskList = true
-typographer = true
-[markup.goldmark.renderer]
-# 是否在文档中直接使用 HTML 标签
-unsafe = true
-# 目录设置
-[markup.tableOfContents]
-endLevel = 6
-startLevel = 2
+  # 语法高亮设置
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  lineNos = true
+  lineNumbersInTable = true
+  # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)                                                     
+  noClasses = false
+  # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+    [markup.goldmark.renderer]
+    # 是否在文档中直接使用 HTML 标签
+    unsafe = true
+  # 目录设置
+  [markup.tableOfContents]
+  endLevel = 6
+  startLevel = 2
 
 # 多语言配置
 [languages]
 
-[languages.en]
-languageCode = "en"
-languageName = "English"
-title = "Misitebao's Blog"
-weight = 1
+  # 英文
+  [languages.en]
+  languageCode = "en"
+  languageName = "English"
+  title = "Misitebao's Blog"
+  weight = 1
 
-[[languages.en.menu.main]]
-identifier = ""
-name = "Home"
-post = ""
-pre = ""
-title = ""
-url = "/"
-weight = 1
+    [[languages.en.menu.main]]
+    identifier = ""
+    name = "Home"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/"
+    weight = 1
 
-[[languages.en.menu.main]]
-identifier = ""
-name = "Frontend"
-post = ""
-pre = ""
-title = ""
-url = "/categories/Frontend/"
-weight = 2
+    [[languages.en.menu.main]]
+    identifier = ""
+    name = "Frontend"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/Frontend/"
+    weight = 2
 
-[[languages.en.menu.main]]
-identifier = ""
-name = "Go"
-post = ""
-pre = ""
-title = ""
-url = "/categories/Go/"
-weight = 3
+    [[languages.en.menu.main]]
+    identifier = ""
+    name = "Go"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/Go/"
+    weight = 3
 
-[[languages.en.menu.main]]
-identifier = "posts"
-name = "Posts"
-post = ""
-pre = ""
-title = ""
-url = "/posts/"
-weight = 10
+    [[languages.en.menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/posts/"
+    weight = 10
 
-[[languages.en.menu.main]]
-identifier = "tags"
-name = "Tags"
-post = ""
-pre = ""
-title = ""
-url = "/tags/"
-weight = 20
+    [[languages.en.menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/tags/"
+    weight = 20
 
-[[languages.en.menu.main]]
-identifier = "categories"
-name = "Categories"
-post = ""
-pre = ""
-title = ""
-url = "/categories/"
-weight = 30
+    [[languages.en.menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/"
+    weight = 30
 
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-post = ""
-pre = ""
-title = ""
-url = "/about/"
-weight = 40
+    [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/about/"
+    weight = 40
 
-# 页面底部信息配置
-[languages.en.params.footer]
-# ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-icp = "鄂ICP备20006255号"
+    # 页面底部信息配置
+    [languages.en.params.footer]
+    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+    icp = "鄂ICP备20006255号"
 
-[languages.en.params.home.profile]
-enable = true
-# Gravatar 邮箱，用于优先在主页显示的头像
-gravatarEmail = ""
-# 主页显示头像的 URL
-avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar_en.png"
-# LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = "Misitebao's Blog"
-# 主页显示的网站副标题
-subtitle = "There are 10 kinds of people in the world, one kind understands binary system and the other kind does not understand binary system."
-# 是否为副标题显示打字机动画
-typeit = true
-# 是否显示社交账号
-social = true
-# LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-disclaimer = ""
+      [languages.en.params.home.profile]
+      enable = true
+      # Gravatar 邮箱，用于优先在主页显示的头像
+      gravatarEmail = ""
+      # 主页显示头像的 URL
+      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar_en.png"
+      # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+      title = "Misitebao's Blog"
+      # 主页显示的网站副标题
+      subtitle = "There are 10 kinds of people in the world, one kind understands binary system and the other kind does not understand binary system."
+      # 是否为副标题显示打字机动画
+      typeit = true
+      # 是否显示社交账号
+      social = true
+      # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+      disclaimer = ""
 
-[languages.en.author]
-email = "i@misitebao.com"
-link = "https://github.com/misitebao"
-name = "Misitebao"
+    [languages.en.author]
+    email = "i@misitebao.com"
+    link = "https://github.com/misitebao"
+    name = "Misitebao"
 
-[languages.zh-cn]
-title = "米司博客"
-weight = 2
-# 网站语言, 仅在这里 CN 大写
-languageCode = "zh-CN"
-languageName = "简体中文"
-# 是否包括中日韩文字
-hasCJKLanguage = true
+  [languages.zh-cn]
+  title = "米司博客"
+  weight = 2
+  # 网站语言, 仅在这里 CN 大写
+  languageCode = "zh-CN"
+  languageName = "简体中文"
+  # 是否包括中日韩文字
+  hasCJKLanguage = true
 
-[[languages.zh-cn.menu.main]]
-identifier = ""
-name = "主页"
-post = ""
-pre = ""
-title = ""
-url = "/"
-weight = 1
+    [[languages.zh-cn.menu.main]]
+    identifier = ""
+    name = "主页"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/"
+    weight = 1
 
-[[languages.zh-cn.menu.main]]
-identifier = ""
-name = "前端"
-post = ""
-pre = ""
-title = ""
-url = "/categories/前端/"
-weight = 2
+    [[languages.zh-cn.menu.main]]
+    identifier = ""
+    name = "前端"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/前端/"
+    weight = 2
 
-[[languages.zh-cn.menu.main]]
-identifier = ""
-name = "Go"
-post = ""
-pre = ""
-title = ""
-url = "/categories/Go/"
-weight = 3
+    [[languages.zh-cn.menu.main]]
+    identifier = ""
+    name = "Go"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/Go/"
+    weight = 3
 
-[[languages.zh-cn.menu.main]]
-identifier = "posts"
-name = "全部文章"
-post = ""
-pre = ""
-title = ""
-url = "/posts/"
-weight = 10
+    [[languages.zh-cn.menu.main]]
+    identifier = "posts"
+    name = "全部文章"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/posts/"
+    weight = 10
 
-[[languages.zh-cn.menu.main]]
-identifier = "tags"
-name = "标签"
-post = ""
-pre = ""
-title = ""
-url = "/tags/"
-weight = 20
+    [[languages.zh-cn.menu.main]]
+    identifier = "tags"
+    name = "标签"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/tags/"
+    weight = 20
 
-[[languages.zh-cn.menu.main]]
-identifier = "categories"
-name = "分类"
-post = ""
-pre = ""
-title = ""
-url = "/categories/"
-weight = 30
+    [[languages.zh-cn.menu.main]]
+    identifier = "categories"
+    name = "分类"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/"
+    weight = 30
 
-[[languages.zh-cn.menu.main]]
-identifier = "about"
-name = "关于"
-post = ""
-pre = ""
-title = ""
-url = "/about/"
-weight = 40
+    [[languages.zh-cn.menu.main]]
+    identifier = "about"
+    name = "关于"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/about/"
+    weight = 40
 
-# 页面底部信息配置
-[languages.zh-cn.params.footer]
-# ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-icp = "鄂ICP备20006255号"
+    [[languages.zh-cn.menu.main]]
+    identifier = "links"
+    name = "友情链接"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/links/"
+    weight = 50
 
-[languages.zh-cn.params.home.profile]
-enable = true
-# Gravatar 邮箱，用于优先在主页显示的头像
-gravatarEmail = ""
-# 主页显示头像的 URL
-avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
-# LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = "米司博客"
-# 主页显示的网站副标题
-subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
-# 是否为副标题显示打字机动画
-typeit = true
-# 是否显示社交账号
-social = true
-# LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-disclaimer = ""
+    # 页面底部信息配置
+    [languages.zh-cn.params.footer]
+    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+    icp = "鄂ICP备20006255号"
 
-[languages.zh-cn.author]
-email = "i@misitebao.com"
-link = "https://github.com/misitebao"
-name = "米司特包"
+      [languages.zh-cn.params.home.profile]
+      enable = true
+      # Gravatar 邮箱，用于优先在主页显示的头像
+      gravatarEmail = ""
+      # 主页显示头像的 URL
+      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
+      # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+      title = "米司博客"
+      # 主页显示的网站副标题
+      subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
+      # 是否为副标题显示打字机动画
+      typeit = true
+      # 是否显示社交账号
+      social = true
+      # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+      disclaimer = ""
+
+    [languages.zh-cn.author]
+    email = "i@misitebao.com"
+    link = "https://github.com/misitebao"
+    name = "米司特包"
