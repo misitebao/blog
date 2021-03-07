@@ -9,12 +9,12 @@ authorLink= "" #作者链接
 description= "" #文章内容描述
 license= "" #特殊许可
 images= [] #页面图片
- 
+
 tags= ["友情链接"] #文章标签
 categories= ["友情链接"] #文章分类
 featuredImage= "" #文章特色图片 （文章主页都显示）
 featuredImagePreview= "" #主页预览特色图片（仅主页显示）
- 
+
 hiddenFromHomePage= false #在主页不显示
 hiddenFromSearch= false #在搜索结果中不显示
 twemoji= false #是否使用twemoji
@@ -43,3 +43,4 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 - [脑子进煎鱼了](https://eddycjy.com/)
 - [米白小站-I may be the most handsome person in the world.](http://www.jiaoguoliang.com/)
 - [Polaris-Go 语言中文网站长](http://blog.studygolang.com/)
+- [张馆长-站在巨人的肩膀上](https://zhangguanzhang.github.io/)
