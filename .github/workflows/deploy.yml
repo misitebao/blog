@@ -6,7 +6,7 @@ on:
 #    branches: [master]
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
     if: github.repository == 'misitebao/blog'
     steps:
       - name: Checkout | 切换到部署分支
