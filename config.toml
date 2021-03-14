@@ -91,19 +91,19 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
   Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
   Zhihu = "misitebao"
 
-  [params.page]
-    # 评论系统设置
-    [params.page.comment]
-    enable = true
-      # Gitalk 评论系统设置
-      [params.page.comment.gitalk]
-      # LoveIt 新增 | 0.1.1
-      enable = true
-      owner = "misitebao"
-      repo = "blog"
-      clientId = "c5a74a2e4f8a85e2515b"
-      clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"
-      admin = ["misitebao"]
+  # [params.page]
+  #   # 评论系统设置
+  #   [params.page.comment]
+  #   enable = true
+  #     # Gitalk 评论系统设置
+  #     [params.page.comment.gitalk]
+  #     # LoveIt 新增 | 0.1.1
+  #     enable = true
+  #     owner = "misitebao"
+  #     repo = "blog"
+  #     clientId = "c5a74a2e4f8a85e2515b"
+  #     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"
+  #     admin = ["misitebao"]
 
 #作者配置                                      
 [author]
