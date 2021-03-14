@@ -91,19 +91,19 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
   Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
   Zhihu = "misitebao"
 
-  # [params.page]
-  #   # 评论系统设置
-  #   [params.page.comment]
-  #   enable = true
-  #     # Gitalk 评论系统设置
-  #     [params.page.comment.gitalk]
-  #     # LoveIt 新增 | 0.1.1
-  #     enable = true
-  #     owner = "misitebao"
-  #     repo = "blog"
-  #     clientId = "c5a74a2e4f8a85e2515b"
-  #     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"
-  #     admin = ["misitebao"]
+  # [params.page]  
+#   # 评论系统设置  
+#   [params.page.comment]  
+#   enable = true  
+#     # Gitalk 评论系统设置  
+#     [params.page.comment.gitalk]  
+#     # LoveIt 新增 | 0.1.1  
+#     enable = true  
+#     owner = "misitebao"  
+#     repo = "blog"  
+#     clientId = "c5a74a2e4f8a85e2515b"  
+#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"  
+#     admin = ["misitebao"]
 
 #作者配置                                      
 [author]
@@ -161,11 +161,11 @@ name = "米司特包"
 
     [[languages.en.menu.main]]
     identifier = ""
-    name = "Frontend"
+    name = "FrontEnd"
     post = ""
     pre = ""
     title = ""
-    url = "/categories/Frontend/"
+    url = "/categories/FrontEnd/"
     weight = 2
 
     [[languages.en.menu.main]]
@@ -175,7 +175,7 @@ name = "米司特包"
     pre = ""
     title = ""
     url = "/categories/Go/"
-    weight = 3
+    weight = 4
 
     [[languages.en.menu.main]]
     identifier = "posts"
@@ -187,21 +187,21 @@ name = "米司特包"
     weight = 10
 
     [[languages.en.menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/tags/"
-    weight = 20
-
-    [[languages.en.menu.main]]
     identifier = "categories"
     name = "Categories"
     post = ""
     pre = ""
     title = ""
     url = "/categories/"
+    weight = 20
+
+    [[languages.en.menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/tags/"
     weight = 30
 
     [[languages.en.menu.main]]
@@ -260,11 +260,11 @@ name = "米司特包"
 
     [[languages.zh-cn.menu.main]]
     identifier = ""
-    name = "前端"
+    name = "大前端"
     post = ""
     pre = ""
     title = ""
-    url = "/categories/前端/"
+    url = "/categories/大前端/"
     weight = 2
 
     [[languages.zh-cn.menu.main]]
@@ -274,7 +274,7 @@ name = "米司特包"
     pre = ""
     title = ""
     url = "/categories/Go/"
-    weight = 3
+    weight = 4
 
     [[languages.zh-cn.menu.main]]
     identifier = "posts"
@@ -286,21 +286,21 @@ name = "米司特包"
     weight = 10
 
     [[languages.zh-cn.menu.main]]
-    identifier = "tags"
-    name = "标签"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/tags/"
-    weight = 20
-
-    [[languages.zh-cn.menu.main]]
     identifier = "categories"
     name = "分类"
     post = ""
     pre = ""
     title = ""
     url = "/categories/"
+    weight = 20
+
+    [[languages.zh-cn.menu.main]]
+    identifier = "tags"
+    name = "标签"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/tags/"
     weight = 30
 
     [[languages.zh-cn.menu.main]]
