@@ -12,15 +12,20 @@ jobs:
       - name: Checkout | 切换到部署分支
         uses: actions/checkout@v2
         with:
+          ref: "main"
           submodules: true
           fetch-depth: 0
+          token: ${{ secrets.PERSONAL_TOKEN_FOR_BLOG_ARTICLE }}
+
       - name: Setup Hugo | 设置Hugo环境
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.81.0"
           extended: true
+
       - name: Build | 构建
         run: hugo
+
       - name: Deploy to Server | 部署到服务器
         uses: hengkx/ssh-deploy@v1.0.1
         with:
