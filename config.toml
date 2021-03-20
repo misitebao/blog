@@ -9,7 +9,7 @@ hasCJKLanguage = true
 # 网站标题
 title = "米司博客"
 # 更改使用 Hugo 构建网站时使用的默认主题
-theme = "LoveIt"
+theme = "hugo-theme-loveIt"
 
 [params]
 # LoveIt 主题版本

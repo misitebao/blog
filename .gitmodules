@@ -2,3 +2,6 @@
 	path = content/posts
 	url = https://github.com/misitebao/blog-article.git
 	branch = main
+[submodule "themes/hugo-theme-loveIt"]
+	path = themes/hugo-theme-loveIt
+	url = https://github.com/misitebao/hugo-theme-loveIt.git
