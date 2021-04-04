@@ -175,6 +175,15 @@ name = "米司特包"
     pre = ""
     title = ""
     url = "/categories/Go/"
+    weight = 3
+
+    [[languages.en.menu.main]]
+    identifier = ""
+    name = "Unity"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/Unity/"
     weight = 4
 
     [[languages.en.menu.main]]
@@ -274,6 +283,15 @@ name = "米司特包"
     pre = ""
     title = ""
     url = "/categories/Go/"
+    weight = 3
+
+    [[languages.zh-cn.menu.main]]
+    identifier = ""
+    name = "Unity"
+    post = ""
+    pre = ""
+    title = ""
+    url = "/categories/Unity/"
     weight = 4
 
     [[languages.zh-cn.menu.main]]
