@@ -234,7 +234,7 @@ name = "米司特包"
       # 主页显示头像的 URL
       avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar_en.png"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "Misitebao's Blog"
+      title = "Misitebao"
       # 主页显示的网站副标题
       subtitle = "There are 10 kinds of people in the world, one kind understands binary system and the other kind does not understand binary system."
       # 是否为副标题显示打字机动画
@@ -351,7 +351,7 @@ name = "米司特包"
       # 主页显示头像的 URL
       avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "米司博客"
+      title = "米司特包"
       # 主页显示的网站副标题
       subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
       # 是否为副标题显示打字机动画
