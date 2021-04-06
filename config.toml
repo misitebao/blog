@@ -91,18 +91,18 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
   Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
   Zhihu = "misitebao"
 
-  # [params.page]    
-#   # 评论系统设置    
-#   [params.page.comment]    
-#   enable = true    
-#     # Gitalk 评论系统设置    
-#     [params.page.comment.gitalk]    
-#     # LoveIt 新增 | 0.1.1    
-#     enable = true    
-#     owner = "misitebao"    
-#     repo = "blog"    
-#     clientId = "c5a74a2e4f8a85e2515b"    
-#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"    
+  # [params.page]            
+#   # 评论系统设置            
+#   [params.page.comment]            
+#   enable = true            
+#     # Gitalk 评论系统设置            
+#     [params.page.comment.gitalk]            
+#     # LoveIt 新增 | 0.1.1            
+#     enable = true            
+#     owner = "misitebao"            
+#     repo = "blog"            
+#     clientId = "c5a74a2e4f8a85e2515b"            
+#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"            
 #     admin = ["misitebao"]
 
 #作者配置                                      
@@ -258,6 +258,10 @@ name = "米司特包"
   # 是否包括中日韩文字
   hasCJKLanguage = true
 
+    [languages.zh-cn.params]
+    # 网站描述
+    description = "💖米司特包的博客,学习并分享Javascript、Nodejs、Typescript、Webpack、Gulp、Rollup、Vue、Vite、Go、Linux、Mysql、C、C#、Unity、Blender等编程技术，记录游戏、动漫、小说等生活点滴，和一些行业资讯，是一个值得收藏的网站。"
+
     [[languages.zh-cn.menu.main]]
     identifier = ""
     name = "主页"
@@ -339,10 +343,10 @@ name = "米司特包"
     url = "/links/"
     weight = 50
 
-    # 页面底部信息配置
-    [languages.zh-cn.params.footer]
-    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = "鄂ICP备20006255号"
+      # 页面底部信息配置
+      [languages.zh-cn.params.footer]
+      # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+      icp = "鄂ICP备20006255号"
 
       [languages.zh-cn.params.home.profile]
       enable = true
