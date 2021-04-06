@@ -35,7 +35,9 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 - 简介：世界上有 10 种人，一种懂二进制，一种不懂二进制
 - 头像：https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png
 
-  [我的联系方式>](/about/)
+添加友链请先按照上面的信息，添加本站到你的网站，然后联系我 👉[我的联系方式](/about/)
+
+**采集、转载、聚合站一律不加**
 
 {{< /admonition >}}
 
@@ -44,3 +46,4 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 - [米白小站-I may be the most handsome person in the world.](http://www.jiaoguoliang.com/)
 - [Polaris-Go 语言中文网站长](http://blog.studygolang.com/)
 - [张馆长-站在巨人的肩膀上](https://zhangguanzhang.github.io/)
+- [机房钢琴师](http://blog.webwanghui.cn/)
