@@ -28,6 +28,8 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 
 <!-- # 友情链接 -->
 
+## 本站信息
+
 {{< admonition type=tip title="我的信息" open=true >}}
 
 - 名称：米司博客
@@ -40,6 +42,8 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 **采集、转载、聚合站一律不加**
 
 {{< /admonition >}}
+
+## 友情链接
 
 - [七宝萌琪-love 77 forever](https://qibao.goho.co/)
 - [脑子进煎鱼了](https://eddycjy.com/)
