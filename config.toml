@@ -11,6 +11,9 @@ title = "米司博客"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "hugo-theme-loveIt"
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
 [params]
 # LoveIt 主题版本
 version = "0.2.X"
@@ -21,7 +24,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
   # 搜索配置
   [params.search]
-  enable = false
+  enable = true
   # 搜索引擎的类型 ("lunr", "algolia")
   type = "lunr"
   # 文章内容最长索引长度
@@ -83,32 +86,84 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
   # 作者的社交信息设置
   [params.social]
-  Bilibili = "97480642"
   Email = "i@misitebao.com"
-  GitHub = "misitebao"
   RSS = true
-  Twitter = "misitebao"
-  Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"
-  Zhihu = "misitebao"
+  # Bilibili = "97480642"        
+# GitHub = "misitebao"        
+# Twitter = "misitebao"        
+# Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"        
+# Zhihu = "misitebao"
 
-  # [params.page]              
-#   # 评论系统设置              
-#   [params.page.comment]              
-#   enable = true              
-#     # Gitalk 评论系统设置              
-#     [params.page.comment.gitalk]              
-#     # LoveIt 新增 | 0.1.1              
-#     enable = true              
-#     owner = "misitebao"              
-#     repo = "blog"              
-#     clientId = "c5a74a2e4f8a85e2515b"              
-#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"              
+    [params.social.github]
+    # 排列图标时的权重 (权重越大, 图标的位置越靠后)
+    weight = 1
+    # 你的社交 ID
+    id = "misitebao"
+    # 你的社交链接的前缀
+    prefix = "https://github.com/"
+    # 当鼠标停留在图标上时的提示内容
+    title = "Github"
+
+    [params.social.weibo]
+    weight = 2
+    id = "SweetHlanxiaomao"
+    prefix = "https://weibo.com/"
+    title = "微博"
+
+    [params.social.bilibili]
+    weight = 3
+    id = "97480642"
+    prefix = "https://space.bilibili.com/"
+    title = "哔哩哔哩"
+
+    [params.social.telegram]
+    weight = 4
+    id = "misitebao"
+    prefix = "https://t.me/"
+    title = "Telegram"
+
+    [params.social.twitter]
+    weight = 5
+    id = "misitebao"
+    prefix = "https://twitter.com/"
+    title = "Twitter"
+
+    [params.social.zhihu]
+    weight = 6
+    id = "misitebao"
+    prefix = "https://www.zhihu.com/people/"
+    title = "知乎"
+
+    [params.social.youtubechannel]
+    weight = 7
+    id = "UCGlgW9t0HnKDlkcS1dH7X3g"
+    prefix = "https://www.youtube.com/channel/"
+    title = "YouTube频道"
+
+    [params.social.steam]
+    weight = 8
+    id = "76561199098254036"
+    prefix = "https://steamcommunity.com/profiles/"
+    title = "Steam"
+
+    # [params.page]                                                                                                                  
+#   # 评论系统设置                                                                                                                  
+#   [params.page.comment]                                                                                                                  
+#   enable = true                                                                                                                  
+#     # Gitalk 评论系统设置                                                                                                                  
+#     [params.page.comment.gitalk]                                                                                                                  
+#     # LoveIt 新增 | 0.1.1                                                                                                                  
+#     enable = true                                                                                                                  
+#     owner = "misitebao"                                                                                                                  
+#     repo = "blog"                                                                                                                  
+#     clientId = "c5a74a2e4f8a85e2515b"                                                                                                                  
+#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"                                                                                                                  
 #     admin = ["misitebao"]
 
-  #作者配置                                        
-# [author]  
-# email = "i@misitebao.com"  
-# link = "https://github.com/misitebao"  
+    #作者配置                                                                                                                                            
+# [author]                                                                                                      
+# email = "i@misitebao.com"                                                                                                      
+# link = "https://github.com/misitebao"                                                                                                      
 # name = "米司特包"
 
 # Hugo 解析文档的配置
