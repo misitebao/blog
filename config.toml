@@ -88,10 +88,10 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
   [params.social]
   Email = "i@misitebao.com"
   RSS = true
-  # Bilibili = "97480642"              
-# GitHub = "misitebao"              
-# Twitter = "misitebao"              
-# Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"              
+  # Bilibili = "97480642"                
+# GitHub = "misitebao"                
+# Twitter = "misitebao"                
+# Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"                
 # Zhihu = "misitebao"
 
     [params.social.github]
@@ -146,24 +146,24 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
     prefix = "https://steamcommunity.com/profiles/"
     title = "Steam"
 
-    # [params.page]                                                                                                                              
-#   # 评论系统设置                                                                                                                              
-#   [params.page.comment]                                                                                                                              
-#   enable = true                                                                                                                              
-#     # Gitalk 评论系统设置                                                                                                                              
-#     [params.page.comment.gitalk]                                                                                                                              
-#     # LoveIt 新增 | 0.1.1                                                                                                                              
-#     enable = true                                                                                                                              
-#     owner = "misitebao"                                                                                                                              
-#     repo = "blog"                                                                                                                              
-#     clientId = "c5a74a2e4f8a85e2515b"                                                                                                                              
-#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"                                                                                                                              
+    # [params.page]                                                                                                                                  
+#   # 评论系统设置                                                                                                                                  
+#   [params.page.comment]                                                                                                                                  
+#   enable = true                                                                                                                                  
+#     # Gitalk 评论系统设置                                                                                                                                  
+#     [params.page.comment.gitalk]                                                                                                                                  
+#     # LoveIt 新增 | 0.1.1                                                                                                                                  
+#     enable = true                                                                                                                                  
+#     owner = "misitebao"                                                                                                                                  
+#     repo = "blog"                                                                                                                                  
+#     clientId = "c5a74a2e4f8a85e2515b"                                                                                                                                  
+#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"                                                                                                                                  
 #     admin = ["misitebao"]
 
-    #作者配置                                                                                                                                                        
-# [author]                                                                                                                  
-# email = "i@misitebao.com"                                                                                                                  
-# link = "https://github.com/misitebao"                                                                                                                  
+    #作者配置                                                                                                                                                            
+# [author]                                                                                                                      
+# email = "i@misitebao.com"                                                                                                                      
+# link = "https://github.com/misitebao"                                                                                                                      
 # name = "米司特包"
 
 # Hugo 解析文档的配置
@@ -214,7 +214,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
     identifier = ""
     name = "Home"
     post = ""
-    pre = ""
+    pre = '<i class="fas fa-home"></i>'
     title = ""
     url = "/"
     weight = 1
@@ -239,11 +239,11 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
     [[languages.en.menu.main]]
     identifier = ""
-    name = "Unity"
+    name = "GameDevelopment"
     post = ""
     pre = ""
     title = ""
-    url = "/categories/Unity/"
+    url = "/categories/GameDevelopment/"
     weight = 4
 
     [[languages.en.menu.main]]
@@ -351,11 +351,11 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
       [[languages.zh-cn.menu.main]]
       identifier = ""
-      name = "Unity"
+      name = "游戏开发"
       post = ""
       pre = '<i class="fab fa-unity"></i>'
       title = ""
-      url = "/categories/Unity/"
+      url = "/categories/游戏开发/"
       weight = 4
 
       [[languages.zh-cn.menu.main]]
