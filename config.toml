@@ -88,10 +88,10 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
   [params.social]
   Email = "i@misitebao.com"
   RSS = true
-  # Bilibili = "97480642"                
-# GitHub = "misitebao"                
-# Twitter = "misitebao"                
-# Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"                
+  # Bilibili = "97480642"                    
+# GitHub = "misitebao"                    
+# Twitter = "misitebao"                    
+# Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"                    
 # Zhihu = "misitebao"
 
     [params.social.github]
@@ -146,24 +146,24 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
     prefix = "https://steamcommunity.com/profiles/"
     title = "Steam"
 
-    # [params.page]                                                                                                                                  
-#   # 评论系统设置                                                                                                                                  
-#   [params.page.comment]                                                                                                                                  
-#   enable = true                                                                                                                                  
-#     # Gitalk 评论系统设置                                                                                                                                  
-#     [params.page.comment.gitalk]                                                                                                                                  
-#     # LoveIt 新增 | 0.1.1                                                                                                                                  
-#     enable = true                                                                                                                                  
-#     owner = "misitebao"                                                                                                                                  
-#     repo = "blog"                                                                                                                                  
-#     clientId = "c5a74a2e4f8a85e2515b"                                                                                                                                  
-#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"                                                                                                                                  
+    # [params.page]                                                                                                                                          
+#   # 评论系统设置                                                                                                                                          
+#   [params.page.comment]                                                                                                                                          
+#   enable = true                                                                                                                                          
+#     # Gitalk 评论系统设置                                                                                                                                          
+#     [params.page.comment.gitalk]                                                                                                                                          
+#     # LoveIt 新增 | 0.1.1                                                                                                                                          
+#     enable = true                                                                                                                                          
+#     owner = "misitebao"                                                                                                                                          
+#     repo = "blog"                                                                                                                                          
+#     clientId = "c5a74a2e4f8a85e2515b"                                                                                                                                          
+#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"                                                                                                                                          
 #     admin = ["misitebao"]
 
-    #作者配置                                                                                                                                                            
-# [author]                                                                                                                      
-# email = "i@misitebao.com"                                                                                                                      
-# link = "https://github.com/misitebao"                                                                                                                      
+    #作者配置                                                                                                                                                                    
+# [author]                                                                                                                              
+# email = "i@misitebao.com"                                                                                                                              
+# link = "https://github.com/misitebao"                                                                                                                              
 # name = "米司特包"
 
 # Hugo 解析文档的配置
@@ -207,7 +207,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
     [languages.en.params]
     # 网站描述
-    description = "💖Mistebag’s blog, learn and share Javascript, Nodejs, Typescript, Webpack, Gulp, Rollup, Vue, Vite, Go, Linux, Mysql, C, C#, Unity, Blender and other programming techniques, record games, animations, novels, etc. Every bit of life, and some industry information, is a website worth collecting."
+    description = "💖Mistebao’s blog, learn and share Javascript, Nodejs, Webpack, Rollup, Vue, Go, Linux, C, C#, Unity and other programming techniques, record games, animations, novels and other life bits and pieces, and some industry information, is a A website worth collecting."
 
 
     [[languages.en.menu.main]]
@@ -320,7 +320,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
     [languages.zh-cn.params]
     # 网站描述
-    description = "💖米司特包的博客,学习并分享Javascript、Nodejs、Typescript、Webpack、Gulp、Rollup、Vue、Vite、Go、Linux、Mysql、C、C#、Unity、Blender等编程技术，记录游戏、动漫、小说等生活点滴，和一些行业资讯，是一个值得收藏的网站。"
+    description = "💖米司特包的博客,学习并分享Javascript、Nodejs、Webpack、Rollup、Vue、Go、Linux、C、C#、Unity等编程技术，记录游戏、动漫、小说等生活点滴，和一些行业资讯，是一个值得收藏的网站。"
 
       [[languages.zh-cn.menu.main]]
       identifier = ""
