@@ -6,10 +6,10 @@
   A personal blog project based on Hugo.<br/>
 </p>
 
-## Internationalization
+## 🌏 Internationalization
 
-English | [简体中文](README.zh_CN.md)
+English | [简体中文](README.zh-Hans.md)
 
-## Introductions
+## ℹ️ Introductions
 
 This is just a personal blog project based on Hugo. The project runs at:[Misitebao' blog](https://blog.misitebao.com)
