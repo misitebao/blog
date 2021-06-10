@@ -1,5 +1,5 @@
 <p style="text-align: center">
-   <img src="/static/favicon-32x32.png.png" width="40%"><br/>
+   <img src="/static/favicon-32x32.png" width="40%"><br/>
 </p>
 
 <p style="text-align: center">
