@@ -1,4 +1,10 @@
-# README
+<p style="text-align: center">
+   <img src="/static/favicon-32x32.png.png" width="40%"><br/>
+</p>
+
+<p style="text-align: center">
+  A personal blog project based on Hugo.<br/>
+</p>
 
 ## Internationalization
 
