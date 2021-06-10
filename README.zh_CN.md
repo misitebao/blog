@@ -1,8 +1,8 @@
-<p style="text-align: center">
+<p align="center">
    <img src="/static/favicon-32x32.png" width="40%"><br/>
 </p>
 
-<p style="text-align: center">
+<p align="center">
   一个基于 Hugo 的个人博客项目<br/>
 </p>
 
