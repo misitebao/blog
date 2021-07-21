@@ -35,7 +35,7 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 - 名称：米司博客
 - 链接：https://blog.misitebao.com
 - 简介：世界上有 10 种人，一种懂二进制，一种不懂二进制
-- 头像：https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png
+- 头像：https://cdn.jsdelivr.net/gh/misitebao/CDN/gravatar.png
 
 添加友链请先按照上面的信息，添加本站到你的网站，然后联系我 👉[我的联系方式](/about/)
 
