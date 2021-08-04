@@ -1,13 +1,17 @@
 name: Deploy | 部署
+
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
 jobs:
   build-and-deploy:
+    name: Build and Deploy | 构建并部署
     runs-on: ubuntu-latest
     if: github.repository == 'misitebao/blog'
+
     steps:
       - name: Checkout | 切换到部署分支
         uses: actions/checkout@v2
@@ -23,7 +27,7 @@ jobs:
           hugo-version: "0.81.0"
           extended: true
 
-      - name: Build | 构建
+      - name: Build Site| 构建网站
         run: hugo
 
       - name: Deploy to Server | 部署到服务器
