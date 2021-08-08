@@ -45,9 +45,9 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 
 ## 友情链接
 
-- [七宝萌琪-love 77 forever](https://qibao.goho.co/)
-- [脑子进煎鱼了](https://eddycjy.com/)
-- [米白小站-I may be the most handsome person in the world.](http://www.jiaoguoliang.com/)
-- [Polaris-Go 语言中文网站长](http://blog.studygolang.com/)
+- [七宝萌琪——love 77 forever](https://qibao.goho.co/)
+- [脑子进煎鱼了——Go 语言专家](https://eddycjy.com/)
+- [米白小站——I may be the most handsome person in the world.](http://www.jiaoguoliang.com/)
+- [Polaris——Go 语言中文网站长](http://blog.studygolang.com/)
 - [张馆长-站在巨人的肩膀上](https://zhangguanzhang.github.io/)
-- [机房钢琴师](http://blog.webwanghui.cn/)
+- [沐华](http://blog.wmuhua.com/)
