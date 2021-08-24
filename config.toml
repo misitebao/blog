@@ -142,8 +142,8 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
     [params.social.steam]
     weight = 8
-    id = "76561199098254036"
-    prefix = "https://steamcommunity.com/profiles/"
+    id = "misitebao"
+    prefix = "https://steamcommunity.com/id/"
     title = "Steam"
 
     # [params.page]                                                                                                                                          
