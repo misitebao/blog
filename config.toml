@@ -292,7 +292,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_en.png"
+      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar.gif"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
       title = "Misitebao"
       # 主页显示的网站副标题
@@ -413,7 +413,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar.png"
+      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar.gif"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
       title = "米司特包"
       # 主页显示的网站副标题
