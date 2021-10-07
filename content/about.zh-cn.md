@@ -5,8 +5,6 @@ draft= false
 date= 2016-05-16
 lastmod= 2021-02-16
 license= "MIT"
-tags= ["关于"]
-categories= ["关于"]
 
 +++
 
@@ -20,8 +18,8 @@ categories= ["关于"]
 
 - Github：https://github.com/misitebao
 - 邮箱：i@misitebao.com
-- 微信：misitebao_work
-- QQ：1028817941
+- 微信：[misitebao_work](https://cdn.jsdelivr.net/gh/misitebao/CDN@main/qrcode/wechat_misitebao_work.jpg)
+- QQ：[1028817941](http://sighttp.qq.com/authd?IDKEY=2471fe9069e51df4d0985cdf772402eb1e1168da6b422d10)
 
 ## 支持本站
 

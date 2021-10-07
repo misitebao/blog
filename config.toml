@@ -282,6 +282,15 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
     url = "/about/"
     weight = 40
 
+    [[languages.en.menu.main]]
+    identifier = "links"
+    name = "Links"
+    post = ""
+    pre = ''
+    title = ""
+    url = "/links/"
+    weight = 50
+
       # 页面底部信息配置
       [languages.en.params.footer]
       # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
@@ -306,7 +315,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
     [languages.en.author]
     email = "i@misitebao.com"
-    link = "https://github.com/misitebao"
+    link = "https://misitebao.com"
     name = "Misitebao"
 
   [languages.zh-cn]
@@ -335,7 +344,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
       identifier = ""
       name = "大前端"
       post = ""
-      pre = '<i class="fab fa-html5"></i>'
+      pre = ''
       title = ""
       url = "/categories/大前端/"
       weight = 2
@@ -353,7 +362,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
       identifier = ""
       name = "游戏开发"
       post = ""
-      pre = '<i class="fab fa-unity"></i>'
+      pre = ''
       title = ""
       url = "/categories/游戏开发/"
       weight = 4
@@ -398,7 +407,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
       identifier = "links"
       name = "友情链接"
       post = ""
-      pre = '<i class="fas fa-link"></i>'
+      pre = ''
       title = ""
       url = "/links/"
       weight = 50

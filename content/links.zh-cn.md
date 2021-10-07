@@ -4,26 +4,7 @@ subtitle= "" #副标题
 date= 2017-07-04 #文章创建时间
 lastmod= 2020-11-04 #文章最后修改时间
 draft= false #是否为草稿
-author= "" #作者
-authorLink= "" #作者链接
-description= "" #文章内容描述
 license= "" #特殊许可
-images= [] #页面图片
-
-tags= ["友情链接"] #文章标签
-categories= ["友情链接"] #文章分类
-featuredImage= "" #文章特色图片 （文章主页都显示）
-featuredImagePreview= "" #主页预览特色图片（仅主页显示）
-
-hiddenFromHomePage= false #在主页不显示
-hiddenFromSearch= false #在搜索结果中不显示
-twemoji= false #是否使用twemoji
-lightgallery= true #是否按照画廊形式显示图片
-ruby= true #
-fraction= true #
-fontawesome= true #
-linkToMarkdown= true #
-rssFullText= false #是否在在 RSS 中将会显示全文内容
 +++
 
 <!-- # 友情链接 -->
@@ -39,15 +20,15 @@ rssFullText= false #是否在在 RSS 中将会显示全文内容
 
 添加友链请先按照上面的信息，添加本站到你的网站，然后联系我 👉[我的联系方式](/about/)
 
-**采集、转载、聚合站一律不加**
+**_采集、转载、聚合站一律不加_**
 
 {{< /admonition >}}
 
 ## 友情链接
 
-- [七宝萌琪——love 77 forever](https://qibao.goho.co/)
-- [脑子进煎鱼了——Go 语言专家](https://eddycjy.com/)
-- [米白小站——I may be the most handsome person in the world.](http://www.jiaoguoliang.com/)
-- [Polaris——Go 语言中文网站长](http://blog.studygolang.com/)
-- [张馆长-站在巨人的肩膀上](https://zhangguanzhang.github.io/)
-- [沐华](http://blog.wmuhua.com/)
+- [脑子进煎鱼了](https://eddycjy.com?from=米司博客) - Go 语言专家。
+- [米白小站](http://www.jiaoguoliang.com/?from=米司博客) - 我可能是世界上最帅的人。
+- [Polaris](http://blog.studygolang.com/?from=米司博客) - Go 语言中文网站长。
+- [张馆长](https://zhangguanzhang.github.io/?from=米司博客) - 站在巨人的肩膀上。
+- [沐华](http://blog.wmuhua.com/?from=米司博客) - 如果你希望成功，当以恒心为良友，以经验为参谋，以谨慎为兄弟，以希望为哨兵。
+- [木灵鱼儿](https://www.mulingyuer.com/) - 有梦就能远航。
