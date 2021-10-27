@@ -26,8 +26,9 @@ If you need to add a friendly link, please add this site to your site according 
 
 ## Links
 
-- [脑子进煎鱼了——Go 语言专家](https://eddycjy.com?from=米司博客)
-- [米白小站——I may be the most handsome person in the world.](http://www.jiaoguoliang.com/?from=米司博客)
-- [Polaris——Go 语言中文网站长](http://blog.studygolang.com/?from=米司博客)
-- [张馆长-站在巨人的肩膀上](https://zhangguanzhang.github.io/?from=米司博客)
-- [沐华](http://blog.wmuhua.com/?from=米司博客)
+- [脑子进煎鱼了](https://eddycjy.com?from=米司博客) - Go 语言专家。
+- [米白小站](http://www.jiaoguoliang.com/?from=米司博客) - 我可能是世界上最帅的人。
+- [Polaris](http://blog.studygolang.com/?from=米司博客) - Go 语言中文网站长。
+- [张馆长](https://zhangguanzhang.github.io/?from=米司博客) - 站在巨人的肩膀上。
+- [沐华](http://blog.wmuhua.com/?from=米司博客) - 如果你希望成功，当以恒心为良友，以经验为参谋，以谨慎为兄弟，以希望为哨兵。
+- [木灵鱼儿](https://www.mulingyuer.com/?from=米司博客) - 有梦就能远航。
