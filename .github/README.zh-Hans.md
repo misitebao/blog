@@ -4,7 +4,7 @@
 
 ## 国际化
 
-[English](README.md) | 简体中文
+[English](README.md) | [简体中文](README.zh-Hans.md)
 
 ## 项目介绍
 
