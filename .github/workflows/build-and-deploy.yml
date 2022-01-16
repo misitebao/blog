@@ -1,4 +1,4 @@
-name: Deploy | 部署
+name: Build and Deploy | 构建并部署
 
 on:
   push:
@@ -34,7 +34,7 @@ jobs:
         uses: hengkx/ssh-deploy@v1.0.1
         with:
           HOST: ${{ secrets.DEPLOY_HOST }}
-          USERNAME: ${{ secrets.DEPLOY_HOST_USER }} # 为了用户信息安全对敏感数据可以在secrets中配置请看下图
+          USERNAME: ${{ secrets.DEPLOY_HOST_USER }}
           PASSWORD: ${{ secrets.DEPLOY_HOST_PASSWORD }}
           SOURCE: "public"
           TARGET: "/www/wwwroot/blog.misitebao.com"
