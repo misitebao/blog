@@ -47,124 +47,104 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
   # 默认展开显示的代码行数
   maxShownLines = 18
 
-  # 页面底部信息配置
-  [params.footer]
-  enable = true
-  # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
-  custom = ''
-  # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
-  hugo = false
-  # LoveIt 新增 | 0.2.0 是否显示版权信息
-  copyright = true
-  # LoveIt 新增 | 0.2.0 是否显示作者
-  author = true
-  # 网站创立年份
-  since = 2015
-  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)                              
-  icp = "鄂ICP备20006255号"
-  # 许可协议信息 (支持 HTML 格式)
-  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+# 页面底部信息配置
+[params.footer]
+enable = true
+# LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
+custom = ''
+# LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
+hugo = false
+# LoveIt 新增 | 0.2.0 是否显示版权信息
+copyright = true
+# LoveIt 新增 | 0.2.0 是否显示作者
+author = true
+# 网站创立年份
+since = 2015
+# ICP 备案信息，仅在中国使用 (支持 HTML 格式)                              
+icp = "鄂ICP备20006255号"
+# 许可协议信息 (支持 HTML 格式)
+license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # LoveIt 新增 | 0.2.0 Section (所有文章) 页面配置
-  [params.section]
-  # section 页面每页显示文章数量
-  paginate = 15
-  # 日期格式 (月和日)
-  dateFormat = "01-02"
-  # RSS 文章数目
-  rss = 10
+# LoveIt 新增 | 0.2.0 Section (所有文章) 页面配置
+[params.section]
+# section 页面每页显示文章数量
+paginate = 15
+# 日期格式 (月和日)
+dateFormat = "01-02"
+# RSS 文章数目
+rss = 10
 
-  # LoveIt 新增 | 0.2.0 List (目录或标签) 页面配置
-  [params.list]
-  # list 页面每页显示文章数量
-  paginate = 15
-  # 日期格式 (月和日)
-  dateFormat = "01-02"
-  # RSS 文章数目
-  rss = 10
+# LoveIt 新增 | 0.2.0 List (目录或标签) 页面配置
+[params.list]
+# list 页面每页显示文章数量
+paginate = 15
+# 日期格式 (月和日)
+dateFormat = "01-02"
+# RSS 文章数目
+rss = 10
 
 
-  # 作者的社交信息设置
-  [params.social]
-  Email = "i@misitebao.com"
-  RSS = true
-  # Bilibili = "97480642"                    
+# 作者的社交信息设置
+[params.social]
+Email = "i@misitebao.com"
+RSS = true
+# Bilibili = "97480642"                    
 # GitHub = "misitebao"                    
 # Twitter = "misitebao"                    
 # Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"                    
 # Zhihu = "misitebao"
 
-    [params.social.github]
-    # 排列图标时的权重 (权重越大, 图标的位置越靠后)
-    weight = 1
-    # 你的社交 ID
-    id = "misitebao"
-    # 你的社交链接的前缀
-    prefix = "https://github.com/"
-    # 当鼠标停留在图标上时的提示内容
-    title = "Github"
+  [params.social.github]
+  # 排列图标时的权重 (权重越大, 图标的位置越靠后)
+  weight = 1
+  # 你的社交 ID
+  id = "misitebao"
+  # 你的社交链接的前缀
+  prefix = "https://github.com/"
+  # 当鼠标停留在图标上时的提示内容
+  title = "Github"
 
-    [params.social.weibo]
-    weight = 2
-    id = "misitebao"
-    prefix = "https://weibo.com/"
-    title = "微博"
+  [params.social.weibo]
+  weight = 2
+  id = "misitebao"
+  prefix = "https://weibo.com/"
+  title = "微博"
 
-    [params.social.bilibili]
-    weight = 3
-    id = "97480642"
-    prefix = "https://space.bilibili.com/"
-    title = "哔哩哔哩"
+  [params.social.bilibili]
+  weight = 3
+  id = "97480642"
+  prefix = "https://space.bilibili.com/"
+  title = "哔哩哔哩"
 
-    [params.social.telegram]
-    weight = 4
-    id = "misitebao"
-    prefix = "https://t.me/"
-    title = "Telegram"
+  [params.social.telegram]
+  weight = 4
+  id = "misitebao"
+  prefix = "https://t.me/"
+  title = "Telegram"
 
-    [params.social.twitter]
-    weight = 5
-    id = "misitebao"
-    prefix = "https://twitter.com/"
-    title = "Twitter"
+  [params.social.twitter]
+  weight = 5
+  id = "misitebao"
+  prefix = "https://twitter.com/"
+  title = "Twitter"
 
-    [params.social.zhihu]
-    weight = 6
-    id = "misitebao"
-    prefix = "https://www.zhihu.com/people/"
-    title = "知乎"
+  [params.social.zhihu]
+  weight = 6
+  id = "misitebao"
+  prefix = "https://www.zhihu.com/people/"
+  title = "知乎"
 
-    [params.social.youtubechannel]
-    weight = 7
-    id = "UCGlgW9t0HnKDlkcS1dH7X3g"
-    prefix = "https://www.youtube.com/channel/"
-    title = "YouTube频道"
+  [params.social.youtubechannel]
+  weight = 7
+  id = "UCGlgW9t0HnKDlkcS1dH7X3g"
+  prefix = "https://www.youtube.com/channel/"
+  title = "YouTube频道"
 
-    [params.social.steam]
-    weight = 8
-    id = "misitebao"
-    prefix = "https://steamcommunity.com/id/"
-    title = "Steam"
-
-    # [params.page]                                                                                                                                          
-#   # 评论系统设置                                                                                                                                          
-#   [params.page.comment]                                                                                                                                          
-#   enable = true                                                                                                                                          
-#     # Gitalk 评论系统设置                                                                                                                                          
-#     [params.page.comment.gitalk]                                                                                                                                          
-#     # LoveIt 新增 | 0.1.1                                                                                                                                          
-#     enable = true                                                                                                                                          
-#     owner = "misitebao"                                                                                                                                          
-#     repo = "blog"                                                                                                                                          
-#     clientId = "c5a74a2e4f8a85e2515b"                                                                                                                                          
-#     clientSecret = "45c4a073634f46641d2554d34115d3fdbf9ad07d"                                                                                                                                          
-#     admin = ["misitebao"]
-
-    #作者配置                                                                                                                                                                    
-# [author]                                                                                                                              
-# email = "i@misitebao.com"                                                                                                                              
-# link = "https://github.com/misitebao"                                                                                                                              
-# name = "米司特包"
+  [params.social.steam]
+  weight = 8
+  id = "misitebao"
+  prefix = "https://steamcommunity.com/id/"
+  title = "Steam"
 
 # Hugo 解析文档的配置
 [markup]
@@ -190,10 +170,10 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
     # 是否在文档中直接使用 HTML 标签
     unsafe = true
 
-  # 目录设置
-  [markup.tableOfContents]
-  endLevel = 6
-  startLevel = 2
+# 目录设置
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2
 
 # 多语言配置
 [languages]
@@ -207,7 +187,7 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
     [languages.en.params]
     # 网站描述
-    description = "💖Mistebao’s blog, learn and share Javascript, Nodejs, Webpack, Rollup, Vue, Go, Linux, C, C#, Unity and other programming techniques, record games, animations, novels and other life bits and pieces, and some industry information, is a A website worth collecting."
+    description = "💖Mistebao’s blog, Technology serves evolution rather than control. Twitter/Youtube: Misitebao"
 
 
     [[languages.en.menu.main]]
@@ -291,150 +271,150 @@ keywords = ["米司特包", "米司", "misitebao", "米司博客"]
     url = "/links/"
     weight = 50
 
-      # 页面底部信息配置
-      [languages.en.params.footer]
-      # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-      icp = "鄂ICP备20006255号"
+    # 页面底部信息配置
+    [languages.en.params.footer]
+    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+    icp = "鄂ICP备20006255号"
 
-      [languages.en.params.home.profile]
-      enable = true
-      # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = ""
-      # 主页显示头像的 URL
-      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_hp.png"
-      # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "Misitebao"
-      # 主页显示的网站副标题
-      subtitle = "There are 10 kinds of people in the world, one kind understands binary system and the other kind does not understand binary system."
-      # 是否为副标题显示打字机动画
-      typeit = true
-      # 是否显示社交账号
-      social = true
-      # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-      disclaimer = ""
+    [languages.en.params.home.profile]
+    enable = true
+    # Gravatar 邮箱，用于优先在主页显示的头像
+    gravatarEmail = ""
+    # 主页显示头像的 URL
+    avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_hp.png"
+    # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+    title = "Misitebao"
+    # 主页显示的网站副标题
+    subtitle = "There are 10 kinds of people in the world, one kind understands binary system and the other kind does not understand binary system."
+    # 是否为副标题显示打字机动画
+    typeit = true
+    # 是否显示社交账号
+    social = true
+    # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+    disclaimer = ""
 
-    [languages.en.author]
-    email = "i@misitebao.com"
-    link = "https://misitebao.com"
-    name = "Misitebao"
+[languages.en.author]
+email = "i@misitebao.com"
+link = "https://misitebao.com"
+name = "Misitebao"
 
-  [languages.zh-cn]
-  title = "米司博客 - 技术服务于进化而非控制"
+[languages.zh-cn]
+title = "米司博客 - 技术服务于进化而非控制"
+weight = 2
+# 网站语言, 仅在这里 CN 大写
+languageCode = "zh-CN"
+languageName = "简体中文"
+# 是否包括中日韩文字
+hasCJKLanguage = true
+
+  [languages.zh-cn.params]
+  # 网站描述
+  description = "💖米司特包的博客，技术服务于进化而非控制。公众号/微博：米司特包"
+
+  [[languages.zh-cn.menu.main]]
+  identifier = ""
+  name = "主页"
+  post = ""
+  pre = '<i class="fas fa-home"></i>'
+  title = ""
+  url = "/"
+  weight = 1
+
+  [[languages.zh-cn.menu.main]]
+  identifier = ""
+  name = "大前端"
+  post = ""
+  pre = ''
+  title = ""
+  url = "/categories/大前端/"
   weight = 2
-  # 网站语言, 仅在这里 CN 大写
-  languageCode = "zh-CN"
-  languageName = "简体中文"
-  # 是否包括中日韩文字
-  hasCJKLanguage = true
 
-    [languages.zh-cn.params]
-    # 网站描述
-    description = "💖米司特包的博客,学习并分享Javascript、Nodejs、Webpack、Rollup、Vue、Go、Linux、C、C#、Unity等编程技术，记录游戏、动漫、小说等生活点滴，和一些行业资讯，是一个值得收藏的网站。"
+  [[languages.zh-cn.menu.main]]
+  identifier = ""
+  name = "Go"
+  post = ""
+  pre = ''
+  title = ""
+  url = "/categories/Go/"
+  weight = 3
 
-      [[languages.zh-cn.menu.main]]
-      identifier = ""
-      name = "主页"
-      post = ""
-      pre = '<i class="fas fa-home"></i>'
-      title = ""
-      url = "/"
-      weight = 1
+  [[languages.zh-cn.menu.main]]
+  identifier = ""
+  name = "游戏开发"
+  post = ""
+  pre = ''
+  title = ""
+  url = "/categories/游戏开发/"
+  weight = 4
 
-      [[languages.zh-cn.menu.main]]
-      identifier = ""
-      name = "大前端"
-      post = ""
-      pre = ''
-      title = ""
-      url = "/categories/大前端/"
-      weight = 2
+  [[languages.zh-cn.menu.main]]
+  identifier = "posts"
+  name = "全部文章"
+  post = ""
+  pre = ""
+  title = ""
+  url = "/posts/"
+  weight = 10
 
-      [[languages.zh-cn.menu.main]]
-      identifier = ""
-      name = "Go"
-      post = ""
-      pre = ''
-      title = ""
-      url = "/categories/Go/"
-      weight = 3
+  [[languages.zh-cn.menu.main]]
+  identifier = "categories"
+  name = "分类"
+  post = ""
+  pre = ""
+  title = ""
+  url = "/categories/"
+  weight = 20
 
-      [[languages.zh-cn.menu.main]]
-      identifier = ""
-      name = "游戏开发"
-      post = ""
-      pre = ''
-      title = ""
-      url = "/categories/游戏开发/"
-      weight = 4
+  [[languages.zh-cn.menu.main]]
+  identifier = "tags"
+  name = "标签"
+  post = ""
+  pre = ""
+  title = ""
+  url = "/tags/"
+  weight = 30
 
-      [[languages.zh-cn.menu.main]]
-      identifier = "posts"
-      name = "全部文章"
-      post = ""
-      pre = ""
-      title = ""
-      url = "/posts/"
-      weight = 10
+  [[languages.zh-cn.menu.main]]
+  identifier = "about"
+  name = "关于"
+  post = ""
+  pre = ""
+  title = ""
+  url = "/about/"
+  weight = 40
 
-      [[languages.zh-cn.menu.main]]
-      identifier = "categories"
-      name = "分类"
-      post = ""
-      pre = ""
-      title = ""
-      url = "/categories/"
-      weight = 20
+  [[languages.zh-cn.menu.main]]
+  identifier = "links"
+  name = "友情链接"
+  post = ""
+  pre = ''
+  title = ""
+  url = "/links/"
+  weight = 50
 
-      [[languages.zh-cn.menu.main]]
-      identifier = "tags"
-      name = "标签"
-      post = ""
-      pre = ""
-      title = ""
-      url = "/tags/"
-      weight = 30
+  # 页面底部信息配置
+  [languages.zh-cn.params.footer]
+  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+  icp = "鄂ICP备20006255号"
 
-      [[languages.zh-cn.menu.main]]
-      identifier = "about"
-      name = "关于"
-      post = ""
-      pre = ""
-      title = ""
-      url = "/about/"
-      weight = 40
+  [languages.zh-cn.params.home.profile]
+  enable = true
+  # Gravatar 邮箱，用于优先在主页显示的头像
+  gravatarEmail = ""
+  # 主页显示头像的 URL
+  avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_hp.png"
+  # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+  title = "米司特包"
+  # 主页显示的网站副标题
+  subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
+  # 是否为副标题显示打字机动画
+  typeit = true
+  # 是否显示社交账号
+  social = true
+  # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+  disclaimer = ""
 
-      [[languages.zh-cn.menu.main]]
-      identifier = "links"
-      name = "友情链接"
-      post = ""
-      pre = ''
-      title = ""
-      url = "/links/"
-      weight = 50
-
-      # 页面底部信息配置
-      [languages.zh-cn.params.footer]
-      # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-      icp = "鄂ICP备20006255号"
-
-      [languages.zh-cn.params.home.profile]
-      enable = true
-      # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = ""
-      # 主页显示头像的 URL
-      avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_hp.png"
-      # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "米司特包"
-      # 主页显示的网站副标题
-      subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
-      # 是否为副标题显示打字机动画
-      typeit = true
-      # 是否显示社交账号
-      social = true
-      # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-      disclaimer = ""
-
-    [languages.zh-cn.author]
-    email = "i@misitebao.com"
-    link = "https://github.com/misitebao"
-    name = "米司特包"
+[languages.zh-cn.author]
+email = "i@misitebao.com"
+link = "https://github.com/misitebao"
+name = "米司特包"
