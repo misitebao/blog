@@ -2,8 +2,7 @@
 baseURL = "https://blog.misitebao.com/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
-# 网站语言, 仅在这里 CN 大写
-languageCode = "zh-CN"
+
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
@@ -182,8 +181,14 @@ startLevel = 2
   [languages.en]
   languageCode = "en"
   languageName = "English"
+  contentDir = "content/en"
   title = "Misitebao's Blog"
   weight = 1
+
+    [languages.en.author]
+    email = "i@misitebao.com"
+    link = "https://misitebao.com"
+    name = "Misitebao"
 
     [languages.en.params]
     # 网站描述
@@ -285,7 +290,7 @@ startLevel = 2
     # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
     title = "Misitebao"
     # 主页显示的网站副标题
-    subtitle = "There are 10 kinds of people in the world, one kind understands binary system and the other kind does not understand binary system."
+    subtitle = "Technology serves evolution rather than control."
     # 是否为副标题显示打字机动画
     typeit = true
     # 是否显示社交账号
@@ -293,19 +298,21 @@ startLevel = 2
     # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
     disclaimer = ""
 
-[languages.en.author]
-email = "i@misitebao.com"
-link = "https://misitebao.com"
-name = "Misitebao"
 
 [languages.zh-cn]
-title = "米司博客 - 技术服务于进化而非控制"
+title = "米司博客"
 weight = 2
 # 网站语言, 仅在这里 CN 大写
 languageCode = "zh-CN"
 languageName = "简体中文"
+contentDir = "content/zh-Hans"
 # 是否包括中日韩文字
 hasCJKLanguage = true
+
+  [languages.zh-cn.author]
+  email = "i@misitebao.com"
+  link = "https://github.com/misitebao"
+  name = "米司特包"
 
   [languages.zh-cn.params]
   # 网站描述
@@ -406,15 +413,10 @@ hasCJKLanguage = true
   # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
   title = "米司特包"
   # 主页显示的网站副标题
-  subtitle = "世界上有10种人，一种懂二进制，一种不懂二进制"
+  subtitle = "技术服务于进化而非控制"
   # 是否为副标题显示打字机动画
   typeit = true
   # 是否显示社交账号
   social = true
   # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
   disclaimer = ""
-
-[languages.zh-cn.author]
-email = "i@misitebao.com"
-link = "https://github.com/misitebao"
-name = "米司特包"
