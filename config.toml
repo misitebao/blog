@@ -2,11 +2,8 @@
 baseURL = "https://blog.misitebao.com/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
-
 # 是否包括中日韩文字
 hasCJKLanguage = true
-# 网站标题
-title = "米司博客"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "hugo-theme-loveIt"
 
@@ -21,30 +18,30 @@ version = "0.2.X"
 # 网站关键词
 keywords = ["米司特包", "米司", "misitebao", "米司博客"]
 
-  # 搜索配置
-  [params.search]
-  enable = true
-  # 搜索引擎的类型 ("lunr", "algolia")
-  type = "lunr"
-  # 文章内容最长索引长度
-  contentLength = 4000
-  # 搜索框的占位提示语
-  placeholder = "请输入搜索关键词"
-  # LoveIt 新增 | 0.2.1 最大结果数目
-  maxResultLength = 10
-  # LoveIt 新增 | 0.2.3 结果内容片段长度
-  snippetLength = 50
-  # LoveIt 新增 | 0.2.1 搜索结果中高亮部分的 HTML 标签
-  highlightTag = "em"
-  # LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
-  absoluteURL = false
+# 搜索配置
+[params.search]
+enable = false
+# 搜索引擎的类型 ("lunr", "algolia")
+type = "lunr"
+# 文章内容最长索引长度
+contentLength = 4000
+# 搜索框的占位提示语
+placeholder = "请输入搜索关键词"
+# LoveIt 新增 | 0.2.1 最大结果数目
+maxResultLength = 10
+# LoveIt 新增 | 0.2.3 结果内容片段长度
+snippetLength = 50
+# LoveIt 新增 | 0.2.1 搜索结果中高亮部分的 HTML 标签
+highlightTag = "em"
+# LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
+absoluteURL = false
 
-  # 代码块配置
-  [params.page.code]
-  # 是否显示代码块的复制按钮
-  copy = true
-  # 默认展开显示的代码行数
-  maxShownLines = 18
+# 代码块配置
+[params.page.code]
+# 是否显示代码块的复制按钮
+copy = true
+# 默认展开显示的代码行数
+maxShownLines = 18
 
 # 页面底部信息配置
 [params.footer]
@@ -82,7 +79,6 @@ dateFormat = "01-02"
 # RSS 文章数目
 rss = 10
 
-
 # 作者的社交信息设置
 [params.social]
 Email = "i@misitebao.com"
@@ -93,81 +89,81 @@ RSS = true
 # Youtubechannel = "UCGlgW9t0HnKDlkcS1dH7X3g"                    
 # Zhihu = "misitebao"
 
-  [params.social.github]
-  # 排列图标时的权重 (权重越大, 图标的位置越靠后)
-  weight = 1
-  # 你的社交 ID
-  id = "misitebao"
-  # 你的社交链接的前缀
-  prefix = "https://github.com/"
-  # 当鼠标停留在图标上时的提示内容
-  title = "Github"
+[params.social.github]
+# 排列图标时的权重 (权重越大, 图标的位置越靠后)
+weight = 1
+# 你的社交 ID
+id = "misitebao"
+# 你的社交链接的前缀
+prefix = "https://github.com/"
+# 当鼠标停留在图标上时的提示内容
+title = "Github"
 
-  [params.social.weibo]
-  weight = 2
-  id = "misitebao"
-  prefix = "https://weibo.com/"
-  title = "微博"
+[params.social.weibo]
+id = "misitebao"
+prefix = "https://weibo.com/"
+title = "微博"
+weight = 2
 
-  [params.social.bilibili]
-  weight = 3
-  id = "97480642"
-  prefix = "https://space.bilibili.com/"
-  title = "哔哩哔哩"
+[params.social.bilibili]
+id = "97480642"
+prefix = "https://space.bilibili.com/"
+title = "哔哩哔哩"
+weight = 3
 
-  [params.social.telegram]
-  weight = 4
-  id = "misitebao"
-  prefix = "https://t.me/"
-  title = "Telegram"
+[params.social.telegram]
+id = "misitebao"
+prefix = "https://t.me/"
+title = "Telegram"
+weight = 4
 
-  [params.social.twitter]
-  weight = 5
-  id = "misitebao"
-  prefix = "https://twitter.com/"
-  title = "Twitter"
+[params.social.twitter]
+id = "misitebao"
+prefix = "https://twitter.com/"
+title = "Twitter"
+weight = 5
 
-  [params.social.zhihu]
-  weight = 6
-  id = "misitebao"
-  prefix = "https://www.zhihu.com/people/"
-  title = "知乎"
+[params.social.zhihu]
+id = "misitebao"
+prefix = "https://www.zhihu.com/people/"
+title = "知乎"
+weight = 6
 
-  [params.social.youtubechannel]
-  weight = 7
-  id = "UCGlgW9t0HnKDlkcS1dH7X3g"
-  prefix = "https://www.youtube.com/channel/"
-  title = "YouTube频道"
+[params.social.youtubechannel]
+id = "UCGlgW9t0HnKDlkcS1dH7X3g"
+prefix = "https://www.youtube.com/channel/"
+title = "YouTube频道"
+weight = 7
 
-  [params.social.steam]
-  weight = 8
-  id = "misitebao"
-  prefix = "https://steamcommunity.com/id/"
-  title = "Steam"
+[params.social.steam]
+id = "misitebao"
+prefix = "https://steamcommunity.com/id/"
+title = "Steam"
+weight = 8
 
 # Hugo 解析文档的配置
 [markup]
-  # 语法高亮设置
-  [markup.highlight]
-  codeFences = true
-  guessSyntax = true
-  lineNos = true
-  lineNumbersInTable = true
-  # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)                                                     
-  noClasses = false
-  # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-    definitionList = true
-    footnote = true
-    linkify = true
-    strikethrough = true
-    table = true
-    taskList = true
-    typographer = true
-    [markup.goldmark.renderer]
-    # 是否在文档中直接使用 HTML 标签
-    unsafe = true
+# 语法高亮设置
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+# false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)                                                     
+noClasses = false
+# Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.renderer]
+# 是否在文档中直接使用 HTML 标签
+unsafe = true
 
 # 目录设置
 [markup.tableOfContents]
@@ -177,246 +173,268 @@ startLevel = 2
 # 多语言配置
 [languages]
 
-  # 英文
-  [languages.en]
-  languageCode = "en"
-  languageName = "English"
-  contentDir = "content/en"
-  title = "Misitebao's Blog"
-  weight = 1
+# 英文
+[languages.en]
+contentDir = "content/en"
+languageCode = "en"
+languageName = "English"
+title = "Misitebao's Blog"
+weight = 1
 
-    [languages.en.author]
-    email = "i@misitebao.com"
-    link = "https://misitebao.com"
-    name = "Misitebao"
+[languages.en.author]
+email = "i@misitebao.com"
+link = "https://misitebao.com"
+name = "Misitebao"
 
-    [languages.en.params]
-    # 网站描述
-    description = "💖Mistebao’s blog, Technology serves evolution rather than control. Twitter/Youtube: Misitebao"
+[languages.en.params]
+# 网站描述
+description = "💖Mistebao’s blog, Technology serves evolution rather than control. Twitter/Youtube: Misitebao"
 
+[[languages.en.menu.main]]
+identifier = ""
+name = "Home"
+post = ""
+pre = '<i class="fas fa-home"></i>'
+title = ""
+url = "/"
+weight = 1
 
-    [[languages.en.menu.main]]
-    identifier = ""
-    name = "Home"
-    post = ""
-    pre = '<i class="fas fa-home"></i>'
-    title = ""
-    url = "/"
-    weight = 1
+[[languages.en.menu.main]]
+identifier = ""
+name = "FrontEnd"
+post = ""
+pre = ""
+title = ""
+url = "/categories/FrontEnd/"
+weight = 2
 
-    [[languages.en.menu.main]]
-    identifier = ""
-    name = "FrontEnd"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/categories/FrontEnd/"
-    weight = 2
+[[languages.en.menu.main]]
+identifier = ""
+name = "Go"
+post = ""
+pre = ""
+title = ""
+url = "/categories/Go/"
+weight = 3
 
-    [[languages.en.menu.main]]
-    identifier = ""
-    name = "Go"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/categories/Go/"
-    weight = 3
+[[languages.en.menu.main]]
+identifier = ""
+name = "GameDevelopment"
+post = ""
+pre = ""
+title = ""
+url = "/categories/Game-Development/"
+weight = 4
 
-    [[languages.en.menu.main]]
-    identifier = ""
-    name = "GameDevelopment"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/categories/Game-Development/"
-    weight = 4
+[[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+post = ""
+pre = ""
+title = ""
+url = "/posts/"
+weight = 10
 
-    [[languages.en.menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/posts/"
-    weight = 10
+[[languages.en.menu.main]]
+identifier = "categories"
+name = "Categories"
+post = ""
+pre = ""
+title = ""
+url = "/categories/"
+weight = 20
 
-    [[languages.en.menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/categories/"
-    weight = 20
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+post = ""
+pre = ""
+title = ""
+url = "/tags/"
+weight = 30
 
-    [[languages.en.menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/tags/"
-    weight = 30
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+post = ""
+pre = ""
+title = ""
+url = "/about/"
+weight = 40
 
-    [[languages.en.menu.main]]
-    identifier = "about"
-    name = "About"
-    post = ""
-    pre = ""
-    title = ""
-    url = "/about/"
-    weight = 40
+[[languages.en.menu.main]]
+identifier = "links"
+name = "Links"
+post = ""
+pre = ''
+title = ""
+url = "/links/"
+weight = 50
 
-    [[languages.en.menu.main]]
-    identifier = "links"
-    name = "Links"
-    post = ""
-    pre = ''
-    title = ""
-    url = "/links/"
-    weight = 50
+[languages.en.params.header.title]
+# LOGO 的 URL
+logo = ""
+# 标题名称
+name = "Misitebao's Blog"
+# 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+pre = ""
+# 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+post = ""
+# LoveIt 新增 | 0.2.5 是否为标题显示打字机动画
+typeit = false
 
-    # 页面底部信息配置
-    [languages.en.params.footer]
-    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = "鄂ICP备20006255号"
+# 页面底部信息配置
+[languages.en.params.footer]
+# ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+icp = "鄂ICP备20006255号"
 
-    [languages.en.params.home.profile]
-    enable = true
-    # Gravatar 邮箱，用于优先在主页显示的头像
-    gravatarEmail = ""
-    # 主页显示头像的 URL
-    avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_ct.png"
-    # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-    title = "Misitebao"
-    # 主页显示的网站副标题
-    subtitle = "Technology serves evolution rather than control."
-    # 是否为副标题显示打字机动画
-    typeit = true
-    # 是否显示社交账号
-    social = true
-    # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-    disclaimer = ""
-
+[languages.en.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+gravatarEmail = ""
+# 主页显示头像的 URL
+avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_ct.png"
+# LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = "Misitebao"
+# 主页显示的网站副标题
+subtitle = "Technology serves evolution rather than control."
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
 
 [languages.zh-cn]
 title = "米司博客"
 weight = 2
 # 网站语言, 仅在这里 CN 大写
+contentDir = "content/zh-Hans"
 languageCode = "zh-CN"
 languageName = "简体中文"
-contentDir = "content/zh-Hans"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 
-  [languages.zh-cn.author]
-  email = "i@misitebao.com"
-  link = "https://github.com/misitebao"
-  name = "米司特包"
+[languages.zh-cn.author]
+email = "i@misitebao.com"
+link = "https://github.com/misitebao"
+name = "米司特包"
 
-  [languages.zh-cn.params]
-  # 网站描述
-  description = "💖米司特包的博客，技术服务于进化而非控制。公众号/微博：米司特包"
+[languages.zh-cn.params]
+# 网站描述
+description = "💖米司特包的博客，技术服务于进化而非控制。公众号/微博：米司特包"
 
-  [[languages.zh-cn.menu.main]]
-  identifier = ""
-  name = "主页"
-  post = ""
-  pre = '<i class="fas fa-home"></i>'
-  title = ""
-  url = "/"
-  weight = 1
+[[languages.zh-cn.menu.main]]
+identifier = ""
+name = "主页"
+post = ""
+pre = '<i class="fas fa-home"></i>'
+title = ""
+url = "/"
+weight = 1
 
-  [[languages.zh-cn.menu.main]]
-  identifier = ""
-  name = "大前端"
-  post = ""
-  pre = ''
-  title = ""
-  url = "/categories/大前端/"
-  weight = 2
+[[languages.zh-cn.menu.main]]
+identifier = ""
+name = "大前端"
+post = ""
+pre = ''
+title = ""
+url = "/categories/大前端/"
+weight = 2
 
-  [[languages.zh-cn.menu.main]]
-  identifier = ""
-  name = "Go"
-  post = ""
-  pre = ''
-  title = ""
-  url = "/categories/Go/"
-  weight = 3
+[[languages.zh-cn.menu.main]]
+identifier = ""
+name = "Go"
+post = ""
+pre = ''
+title = ""
+url = "/categories/Go/"
+weight = 3
 
-  [[languages.zh-cn.menu.main]]
-  identifier = ""
-  name = "游戏开发"
-  post = ""
-  pre = ''
-  title = ""
-  url = "/categories/游戏开发/"
-  weight = 4
+[[languages.zh-cn.menu.main]]
+identifier = ""
+name = "游戏开发"
+post = ""
+pre = ''
+title = ""
+url = "/categories/游戏开发/"
+weight = 4
 
-  [[languages.zh-cn.menu.main]]
-  identifier = "posts"
-  name = "全部文章"
-  post = ""
-  pre = ""
-  title = ""
-  url = "/posts/"
-  weight = 10
+[[languages.zh-cn.menu.main]]
+identifier = "posts"
+name = "全部文章"
+post = ""
+pre = ""
+title = ""
+url = "/posts/"
+weight = 10
 
-  [[languages.zh-cn.menu.main]]
-  identifier = "categories"
-  name = "分类"
-  post = ""
-  pre = ""
-  title = ""
-  url = "/categories/"
-  weight = 20
+[[languages.zh-cn.menu.main]]
+identifier = "categories"
+name = "分类"
+post = ""
+pre = ""
+title = ""
+url = "/categories/"
+weight = 20
 
-  [[languages.zh-cn.menu.main]]
-  identifier = "tags"
-  name = "标签"
-  post = ""
-  pre = ""
-  title = ""
-  url = "/tags/"
-  weight = 30
+[[languages.zh-cn.menu.main]]
+identifier = "tags"
+name = "标签"
+post = ""
+pre = ""
+title = ""
+url = "/tags/"
+weight = 30
 
-  [[languages.zh-cn.menu.main]]
-  identifier = "about"
-  name = "关于"
-  post = ""
-  pre = ""
-  title = ""
-  url = "/about/"
-  weight = 40
+[[languages.zh-cn.menu.main]]
+identifier = "about"
+name = "关于"
+post = ""
+pre = ""
+title = ""
+url = "/about/"
+weight = 40
 
-  [[languages.zh-cn.menu.main]]
-  identifier = "links"
-  name = "友情链接"
-  post = ""
-  pre = ''
-  title = ""
-  url = "/links/"
-  weight = 50
+[[languages.zh-cn.menu.main]]
+identifier = "links"
+name = "友情链接"
+post = ""
+pre = ''
+title = ""
+url = "/links/"
+weight = 50
 
-  # 页面底部信息配置
-  [languages.zh-cn.params.footer]
-  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-  icp = "鄂ICP备20006255号"
+[languages.zh-cn.params.header.title]
+# LOGO 的 URL
+logo = ""
+# 标题名称
+name = "米司博客"
+# 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+pre = ""
+# 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+post = ""
+# LoveIt 新增 | 0.2.5 是否为标题显示打字机动画
+typeit = false
 
-  [languages.zh-cn.params.home.profile]
-  enable = true
-  # Gravatar 邮箱，用于优先在主页显示的头像
-  gravatarEmail = ""
-  # 主页显示头像的 URL
-  avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_ct.png"
-  # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-  title = "米司特包"
-  # 主页显示的网站副标题
-  subtitle = "技术服务于进化而非控制"
-  # 是否为副标题显示打字机动画
-  typeit = true
-  # 是否显示社交账号
-  social = true
-  # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-  disclaimer = ""
+# 页面底部信息配置
+[languages.zh-cn.params.footer]
+# ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+icp = "鄂ICP备20006255号"
+
+[languages.zh-cn.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+gravatarEmail = ""
+# 主页显示头像的 URL
+avatarURL = "https://cdn.jsdelivr.net/gh/misitebao/CDN@main/gravatar_ct.png"
+# LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = "米司特包"
+# 主页显示的网站副标题
+subtitle = "技术服务于进化而非控制"
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
