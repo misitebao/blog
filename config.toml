@@ -1,7 +1,7 @@
 # 网站根地址
 baseURL = "https://blog.misitebao.com/"
 # [en, zh-cn, fr, ...] 设置默认的语言
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "zh-hans"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 更改使用 Hugo 构建网站时使用的默认主题
@@ -162,8 +162,7 @@ table = true
 taskList = true
 typographer = true
 [markup.goldmark.renderer]
-# 是否在文档中直接使用 HTML 标签
-unsafe = true
+unsafe = true # 是否在文档中直接使用 HTML 标签
 
 # 目录设置
 [markup.tableOfContents]
@@ -305,26 +304,26 @@ social = true
 # LoveIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
 disclaimer = ""
 
-[languages.zh-cn]
+[languages.zh-Hans]
 title = "米司博客"
 weight = 2
 # 网站语言, 仅在这里 CN 大写
 contentDir = "content/zh-Hans"
-languageCode = "zh-CN"
+languageCode = "zh-Hans"
 languageName = "简体中文"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 
-[languages.zh-cn.author]
+[languages.zh-Hans.author]
 email = "i@misitebao.com"
 link = "https://github.com/misitebao"
 name = "米司特包"
 
-[languages.zh-cn.params]
+[languages.zh-Hans.params]
 # 网站描述
 description = "💖米司特包的博客，技术服务于进化而非控制。公众号/微博：米司特包"
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = ""
 name = "主页"
 post = ""
@@ -333,7 +332,7 @@ title = ""
 url = "/"
 weight = 1
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = ""
 name = "大前端"
 post = ""
@@ -342,7 +341,7 @@ title = ""
 url = "/categories/大前端/"
 weight = 2
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = ""
 name = "Go"
 post = ""
@@ -351,7 +350,7 @@ title = ""
 url = "/categories/Go/"
 weight = 3
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = ""
 name = "游戏开发"
 post = ""
@@ -360,7 +359,7 @@ title = ""
 url = "/categories/游戏开发/"
 weight = 4
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = "posts"
 name = "全部文章"
 post = ""
@@ -369,7 +368,7 @@ title = ""
 url = "/posts/"
 weight = 10
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = "categories"
 name = "分类"
 post = ""
@@ -378,7 +377,7 @@ title = ""
 url = "/categories/"
 weight = 20
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = "tags"
 name = "标签"
 post = ""
@@ -387,7 +386,7 @@ title = ""
 url = "/tags/"
 weight = 30
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = "about"
 name = "关于"
 post = ""
@@ -396,7 +395,7 @@ title = ""
 url = "/about/"
 weight = 40
 
-[[languages.zh-cn.menu.main]]
+[[languages.zh-Hans.menu.main]]
 identifier = "links"
 name = "友情链接"
 post = ""
@@ -405,7 +404,7 @@ title = ""
 url = "/links/"
 weight = 50
 
-[languages.zh-cn.params.header.title]
+[languages.zh-Hans.params.header.title]
 # LOGO 的 URL
 logo = ""
 # 标题名称
@@ -418,11 +417,11 @@ post = ""
 typeit = false
 
 # 页面底部信息配置
-[languages.zh-cn.params.footer]
+[languages.zh-Hans.params.footer]
 # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
 icp = "鄂ICP备20006255号"
 
-[languages.zh-cn.params.home.profile]
+[languages.zh-Hans.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
 gravatarEmail = ""
