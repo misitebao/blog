@@ -5,6 +5,7 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -18,13 +19,11 @@ jobs:
         with:
           ref: "main"
           submodules: true
-          fetch-depth: 0
-          token: ${{ secrets.PERSONAL_TOKEN_FOR_BLOG_ARTICLE }}
 
       - name: Setup Hugo | 设置Hugo环境
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.81.0"
+          hugo-version: "latest"
           extended: true
 
       - name: Build Site| 构建网站
