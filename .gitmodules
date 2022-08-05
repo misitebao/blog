@@ -2,3 +2,7 @@
 	path = themes/hugo-theme-loveIt
 	url = https://github.com/misitebao/hugo-theme-loveIt.git
 	branch = master
+[submodule "content"]
+	path = content
+	url = https://github.com/misitebao/writing.git
+	branch = main
