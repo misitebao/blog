@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build Site| 构建网站
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy to Server | 部署到服务器
         uses: hengkx/ssh-deploy@v1.0.1
