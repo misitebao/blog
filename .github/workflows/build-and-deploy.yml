@@ -40,4 +40,4 @@ jobs:
           USERNAME: ${{ secrets.DEPLOY_HOST_USER }}
           PASSWORD: ${{ secrets.DEPLOY_HOST_PASSWORD }}
           SOURCE: "public"
-          TARGET: ${{ secrets.TARGET }}
+          TARGET: ${{ secrets.DEPLOY_TARGET }}
